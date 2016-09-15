@@ -620,6 +620,36 @@
       "license": "other",
       "date_added": "Mon Aug 14 08:06:58 2016 -0800",
       "suggested_by": "@vitorebatista"
+    },
+    {
+      "title": "open-source-ios-apps",
+      "source": "https://github.com/dkhamsing/open-source-ios-apps",
+      "category-ids": [
+        "bonus"
+      ],
+      "tags": ["other"],
+      "suggested_by": "@vitorebatista",
+      "stars": 10887
+    },
+    {
+      "title": "awesome-macOS",
+      "source": "https://github.com/iCHAIT/awesome-macOS",
+      "category-ids": [
+        "bonus"
+      ],
+      "tags": ["other"],
+      "suggested_by": "@dkhamsing",
+      "stars": 4860
+    },
+    {
+      "title": "open-source-android-apps",
+      "source": "https://github.com/pcqpcq/open-source-android-apps",
+      "category-ids": [
+        "bonus"
+      ],
+      "tags": ["other"],
+      "suggested_by": "@dkhamsing",
+      "stars": 3635
     }
   ]
 }

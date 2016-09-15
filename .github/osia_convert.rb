@@ -58,14 +58,14 @@ def output_apps(apps)
       t << "[` App Store`](#{itunes}) "
     end
     unless googleplay.nil?
-      t << "[` Google Play`](#{googleplay}) "
+      t << "[`Google Play`](#{googleplay}) "
     end
     o << "- #{t} \n"
 
     o <<  "<details><summary>"
 
     details = if tags.nil?
-      '`objc` '
+      '`rn` '
     else
       ''
     end
