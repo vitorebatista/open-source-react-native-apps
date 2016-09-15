@@ -6,7 +6,7 @@
 
 A collaborative list of open-source React-Native apps, your [contribution](https://github.com/vitorebatista/open-source-react-native-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:
 
-![](https://img.shields.io/badge/Projects-43-green.svg) [![](https://img.shields.io/badge/Twitter-@vitorebatista-blue.svg)](https://twitter.com/vitorebatista) ![](https://img.shields.io/badge/Updated-September 14, 2016-lightgrey.svg)
+![](https://img.shields.io/badge/Projects-45-green.svg) [![](https://img.shields.io/badge/Twitter-@vitorebatista-blue.svg)](https://twitter.com/vitorebatista) ![](https://img.shields.io/badge/Updated-September 14, 2016-lightgrey.svg)
 
 Jump to
 
@@ -162,8 +162,18 @@ Click ► to show more details
 <details><summary>`rn` 🔥🔥🔥</summary>  https://github.com/wwayne/react-native-nba-app<br>  Added January  6, 2016<br>  License: [`mit`](http://choosealicense.com/licenses/mit/)
   </details>
 </details> 
+- PocketGear: PocketGear is a clean and simple Pokédex app for Pokémon GO you'll ever need, made by Pokémon enthusiasts to help you trainers get the best out of your Pokémons.  
+<details><summary>`rn` </summary>  https://github.com/satya164/PocketGear<br>  Added September 14, 2016<br>  License: `other`
+  </details>
+</details> 
 - Pokemon  
 <details><summary>`rn` </summary>  https://github.com/VctrySam/Pokemon<br>  Added August 14, 2016<br>  License: `other`
+  </details>
+</details> 
+- PokeVision: React Native app leveraging the GoRadar API in order to display all the Pokémon around you.  
+<details><summary>`rn` </summary>  https://github.com/Morhaus/rn-pokevision/<br>  Added September 14, 2016<br>  License: `other`
+<div><img height='300' alt='PokeVision image 1' src='https://github.com/Morhaus/rn-pokevision/blob/master/screenshot.png'> 
+</div>
   </details>
 </details> 
 - Sudoku  

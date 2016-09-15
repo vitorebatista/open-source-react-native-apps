@@ -622,6 +622,33 @@
       "suggested_by": "@vitorebatista"
     },
     {
+      "title": "PocketGear",
+      "category-ids": [
+        "game"
+      ],
+      "description":"PocketGear is a clean and simple Pokédex app for Pokémon GO you'll ever need, made by Pokémon enthusiasts to help you trainers get the best out of your Pokémons.",
+      "source": "https://github.com/satya164/PocketGear",
+      "stars": 5,
+      "license": "other",
+      "date_added": "Mon Sep 14 11:13:58 2016 -0800",
+      "suggested_by": "@vitorebatista"
+    },
+    {
+      "title": "PokeVision",
+      "category-ids": [
+        "game"
+      ],
+      "description":"React Native app leveraging the GoRadar API in order to display all the Pokémon around you.",
+      "source": "https://github.com/Morhaus/rn-pokevision/",
+      "screenshots":[
+        "https://github.com/Morhaus/rn-pokevision/blob/master/screenshot.png"
+      ],
+      "stars": 37,
+      "license": "other",
+      "date_added": "Mon Sep 14 11:13:58 2016 -0800",
+      "suggested_by": "@vitorebatista"
+    },
+    {
       "title": "open-source-ios-apps",
       "source": "https://github.com/dkhamsing/open-source-ios-apps",
       "category-ids": [
