@@ -1,0 +1,625 @@
+{
+  "title": "Open-Source React-Native Apps",
+  "subtitle": "A collaborative list of open-source React-Native apps, your [contribution](https://github.com/vitorebatista/open-source-react-native-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:",
+  "description": "<!-- \n⚠️ This README is generated, please do not update. To contribute, make changes to contents.json ⚠️ \n https://github.com/vitorebatista/open-source-react-native-apps -->",
+  "header": "```\n 100+ Stars: 🔥\n 200+ Stars: 🔥🔥\n 500+ Stars: 🔥🔥🔥\n1000+ Stars: 🔥🔥🔥🔥\n2000+ Stars: 🔥🔥🔥🔥🔥\n\nMost projects are in English, exceptions have a flag\n🇨🇳 Project is in Chinese\n🇪🇸 Project is in Spanish, etc\n\nClick ► to show more details\n```",
+  "footer": "## Thanks\n\nThis list was inspired by [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps). Thanks to all the [contributors](https://github.com/dkhamsing/open-source-react-native-apps/graphs/contributors) 🎉 \n\n## Contact\n\n- [github.com/vitorebatista](https://github.com/vitorebatista)\n- [twitter.com/vitorebatista](https://twitter.com/vitorebatista)\n",
+  "categories": [
+    {
+      "title": "Clone",
+      "id": "clone"
+    },
+    {
+      "title": "Communication",
+      "id": "communication"
+    },
+    {
+      "title": "Conference",
+      "id": "conference"
+    },
+    {
+      "title": "Developer",
+      "id": "developer"
+    },
+    {
+      "title": "Game",
+      "id": "game"
+    },
+    {
+      "title": "Media",
+      "id": "media",
+      "description": "Image, video, audio, reading"
+    },
+    {
+      "title": "Audio",
+      "id": "audio",
+      "parent": "media"
+    },
+    {
+      "title": "Content",
+      "id": "content",
+      "parent": "media"
+    },
+    {
+      "title": "GIF",
+      "id": "gif",
+      "description": "Mostly using http://giphy.com/",
+      "parent": "media"
+    },
+    {
+      "title": "Video",
+      "id": "video",
+      "parent": "media"
+    },
+    {
+      "title": "News",
+      "id": "news"
+    },
+    {
+      "title": "Official",
+      "id": "official"
+    },
+    {
+      "title": "Sample",
+      "id": "sample"
+    },
+    {
+      "title": "Social",
+      "id": "social"
+    },
+    {
+      "title": "Tasks",
+      "id": "tasks"
+    },
+    {
+      "title": "Bonus",
+      "id": "bonus"
+    },
+    {
+      "title": "Weather",
+      "id": "weather"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Nortal TechDay 2015",
+      "category-ids": [
+        "conference"
+      ],
+      "source": "https://github.com/mikkoj/NortalTechDay",
+      "stars": 190,
+      "license": "mit",
+      "date_added": "Sun May 3 09:15:53 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Weather by jsphkhan",
+      "category-ids": [
+        "weather"
+      ],
+      "homepage": "https://github.com/jsphkhan/ReactNativeExamples/tree/master/ios/WeatherApp",
+      "source": "https://github.com/jsphkhan/ReactNativeExamples",
+      "license": "mit",
+      "stars": 85,
+      "date_added": "Mon May 4 07:38:59 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "NBA allyoop",
+      "category-ids": [
+        "game"
+      ],
+      "description": "NBA game scores",
+      "license": "mit",
+      "source": "https://github.com/wwayne/react-native-nba-app",
+      "stars": 919,
+      "date_added": "Wed, 6 Jan 2016 11:37:19 -0800",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "2048",
+      "category-ids": [
+        "game"
+      ],
+      "description": "App by Facebook",
+      "source": "https://github.com/facebook/react-native/tree/master/Examples/2048",
+      "license": "other",
+      "date_added": "Fri, 5 Feb 2016 07:55:10 -0800",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Movies",
+      "category-ids": [
+        "video"
+      ],
+      "description": "App by Facebook",
+      "source": "https://github.com/facebook/react-native/tree/master/Examples/Movies",
+      "license": "other",
+      "date_added": "Fri, 5 Feb 2016 07:55:10 -0800",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "TicTacToe",
+      "category-ids": [
+        "game"
+      ],
+      "description": "App by Facebook",
+      "source": "https://github.com/facebook/react-native/tree/master/Examples/TicTacToe",
+      "license": "other",
+      "date_added": "Fri, 5 Feb 2016 07:55:10 -0800",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "UIExplorer",
+      "category-ids": [
+        "sample"
+      ],
+      "description": "The UIExplorer is a sample app that showcases React Native views and modules.",
+      "source": "https://github.com/facebook/react-native/tree/master/Examples/UIExplorer",
+      "license": "other",
+      "date_added": "Fri, 5 Feb 2016 07:55:10 -0800",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Around Me",
+      "category-ids": [
+        "social"
+      ],
+      "tags": ["Instagram API","MapView"],
+      "description": "Display Instagram photos around your location",
+      "source": "https://github.com/bgryszko/react-native-example",
+      "screenshots": ["https://cdn.rawgit.com/bgryszko/react-native-example/master/preview.gif"],
+      "stars": 105,
+      "license": "other",
+      "date_added": "Tue Oct 13 07:33:44 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Assemblies",
+      "category-ids": [
+        "social",
+        "clone"
+      ],
+      "description": "Developer-focused Meetup clone",
+      "source": "https://github.com/buildreactnative/assemblies",
+      "screenshots": [
+        "https://github.com/buildreactnative/assemblies/raw/master/screenshots/assemblies-a.png",
+        "https://github.com/buildreactnative/assemblies/raw/master/screenshots/assemblies-b.png",
+        "https://github.com/buildreactnative/assemblies/raw/master/screenshots/assemblies-c.png"
+      ],
+      "stars": 181,
+      "license": "other",
+      "date_added": "Mon May 2 07:40:43 2016 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Calculator",
+      "category-ids": [
+        "calculator"
+      ],
+      "description": "React Native calculator",
+      "license": "mit",
+      "source": "https://github.com/benoitvallon/react-native-nw-react-calculator",
+      "screenshots": [
+        "https://github.com/benoitvallon/react-native-nw-react-calculator/raw/master/images/mobile-apps.png"
+      ],
+      "stars": 3056,
+      "date_added": "Mon Mar 23 13:37:57 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Den",
+      "category-ids": [
+        "social"
+      ],
+      "description": "View houses for sale in the Northwest",
+      "license": "mit",
+      "source": "https://github.com/asamiller/den",
+      "screenshots": [
+        "https://cloud.githubusercontent.com/assets/5133623/7338978/01976cce-ec13-11e4-9b79-f2e2e47503b6.jpg"
+      ],
+      "stars": 265,
+      "date_added": "Fri May 29 07:38:01 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Dribbble",
+      "category-ids": [
+        "social",
+        "clone"
+      ],
+      "description":"Dribbble app built with React Native",
+      "tags": ["Parallax"],
+      "license": "mit",
+      "source": "https://github.com/catalinmiron/react-native-dribbble-app",
+      "screenshots":[
+        "https://cloud.githubusercontent.com/assets/2805320/8113463/db61b072-1076-11e5-8aa2-52417f019ea0.jpg"
+      ],
+      "stars": 1283,
+      "date_added": "Sat Jun 13 07:33:39 2015 -0700",
+      "suggested_by": "@xu6148152"
+    },
+    {
+      "title": "F8 2016",
+      "category-ids": [
+        "official",
+        "conference"
+      ],
+      "description": "Official F8 app",
+      "source": "https://github.com/fbsamples/f8app",
+      "stars": 7139,
+      "license": "other",
+      "screenshots": [
+        "https://github.com/fbsamples/f8app/raw/master/.github/screenshot-app@2x.png"
+      ],
+      "date_added": "Thu Apr 14 07:21:28 2016 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Facebook Login",
+      "category-ids": [
+        "sample",
+        "social"
+      ],
+      "source": "https://github.com/brentvatne/react-native-login",
+      "screenshots":[
+        "https://github.com/brentvatne/react-native-login/raw/master/demo!!!.gif"
+      ],
+      "stars": 459,
+      "license": "other",
+      "date_added": "Tue Apr 14 07:22:46 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Finance",
+      "category-ids": [
+        "clone"
+      ],
+      "googleplay":"https://play.google.com/store/apps/details?id=com.kfpun.finance",
+      "description": "iOS's Stocks app written in React Native",
+      "license": "mit",
+      "source": "https://github.com/7kfpun/FinanceReactNative",
+      "screenshots":[
+        "https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot0.png",
+        "https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot1.png",
+        "https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot2.png",
+        "https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot3.png",
+        "https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot4.png",
+        "https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot5.png"
+      ],
+      "stars": 746,
+      "date_added": "Wed Jul 8 06:45:27 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Foreign Exchange",
+      "category-ids": [
+        "finance"
+      ],
+      "source": "https://github.com/peralmq/ForeignExchangeApp",
+      "screenshots":[
+        "https://cloud.githubusercontent.com/assets/238536/7063949/469613cc-deab-11e4-9d67-c727bcc0171b.png",
+        "https://cloud.githubusercontent.com/assets/238536/7063950/46983512-deab-11e4-8f67-3111e711aa3b.png"
+      ],
+      "stars": 11,
+      "license": "other",
+      "date_added": "Fri Jul 24 07:24:09 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "HackerNews Reader",
+      "category-ids": [
+        "news"
+      ],
+      "description": "Hacker News Reader",
+      "source": "https://github.com/iSimar/HackerNews-React-Native",
+      "googleplay":"https://play.google.com/store/apps/details?id=com.hackernews",
+      "itunes": "https://itunes.apple.com/app/hacker-news-reader-react-native/id1067161633",
+      "stars": 2345,
+      "screenshots": [
+        "http://imgur.com/8OV8MVj.gif","http://imgur.com/9mrmir9.gif",
+        "http://imgur.com/KuySKlC.gif","http://i.imgur.com/88ZW3Ls.gif"
+      ],
+      "license": "other",
+      "date_added": "Mon Aug 14 08:06:58 2016 -0800",
+      "suggested_by": "@vitorebatista"
+    },
+    {
+      "title": "Iceland Earthquakes",
+      "category-ids": [
+        "sample"
+      ],
+      "license": "mit",
+      "source": "https://github.com/paranoida/IcelandEarthquakes",
+      "screenshots":["https://raw.githubusercontent.com/paranoida/IcelandEarthquakes/master/preview.png"],
+      "stars": 23,
+      "date_added": "Thu May 7 07:22:47 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "iTunes Catalog Search",
+      "category-ids": [
+        "audio"
+      ],
+      "source": "https://github.com/alexissan/ReactNativeWorkshop",
+      "screenshots":[
+        "https://github.com/alexissan/ReactNativeWorkshop/raw/master/Screenshots/scsh1.png",
+        "https://github.com/alexissan/ReactNativeWorkshop/raw/master/Screenshots/scsh2.png",
+        "https://github.com/alexissan/ReactNativeWorkshop/raw/master/Screenshots/scsh3.png"
+      ],
+      "stars": 42,
+      "license": "other",
+      "date_added": "Sat Jun 13 07:33:39 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "london-react",
+      "category-ids": [
+        "conference"
+      ],
+      "source": "https://github.com/JoeStanton/london-react",
+      "stars": 40,
+      "license": "other",
+      "date_added": "Sun Aug 2 08:14:23 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "newswatch",
+      "category-ids": [
+        "news"
+      ],
+      "description": "News app based on YouTube playlists",
+      "source": "https://github.com/bradoyler/newswatch-react-native",
+      "screenshots":[
+        "https://cloud.githubusercontent.com/assets/425966/7039857/2f122810-dd95-11e4-99c4-db636d4c66a9.gif"
+      ],
+      "stars": 93,
+      "license": "other",
+      "date_added": "Fri May 15 07:34:03 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "PocketNode",
+      "category-ids": [
+        "developer"
+      ],
+      "description": "Lightweight Node REPL",
+      "source": "https://github.com/mzabriskie/PocketNode",
+      "screenshots": [
+        "https://cloud.githubusercontent.com/assets/199035/10439739/49d80e60-70f9-11e5-94b1-16e06eeb3a8f.png"
+      ],
+      "stars": 47,
+      "license": "other",
+      "date_added": "Thu Feb 4 11:49:30 2016 -0800",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Product Kitty",
+      "category-ids": [
+        "developer"
+      ],
+      "description": "Product Hunt app",
+      "source": "https://github.com/rkho/product-kitty",
+      "stars": 111,
+      "license": "other",
+      "date_added": "Wed Sep 2 17:34:05 2015 -0700",
+      "suggested_by": "Richard Kho"
+    },
+    {
+      "title": "Property Finder",
+      "category-ids": [
+        "developer"
+      ],
+      "source": "https://github.com/ColinEberhardt/ReactNative-PropertyFinder",
+      "stars": 258,
+      "license": "other",
+      "date_added": "Fri, 10 Apr 2015 08:27:49 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Hacker News app by jsdf",
+      "category-ids": [
+        "news"
+      ],
+      "source": "https://github.com/jsdf/ReactNativeHackerNews",
+      "screenshots":[
+        "http://i.imgur.com/gVmrxDe.png",
+        "http://i.imgur.com/FYOgBYc.png"
+      ],
+      "stars": 198,
+      "license": "other",
+      "date_added": "Wed Mar 30 08:38:11 2016 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "RSS Reader",
+      "category-ids": [
+        "news"
+      ],
+      "source": "https://github.com/christopherdro/react-native-rss-reader",
+      "screenshots":[
+        "https://github.com/christopherdro/react-native-rss-reader/blob/master/RssReaderDemo.gif"
+      ],
+      "stars": 84,
+      "license": "other",
+      "date_added": "Mon Jun 22 07:28:20 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Songkick",
+      "category-ids": [
+        "audio"
+      ],
+      "source": "https://github.com/ArnaudRinquin/sk-react-native",
+      "screenshots":[
+        "https://github.com/ArnaudRinquin/sk-react-native/raw/master/screenshots.png"
+      ],
+      "stars": 92,
+      "license": "other",
+      "date_added": "Tue Oct 27 14:57:49 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Spacepics",
+      "category-ids": [
+        "images"
+      ],
+      "description": "A small app displaying NASA's Picture of the Day",
+      "source": "https://github.com/campezzi/react-native-spacepics",
+      "stars": 16,
+      "license": "other",
+      "date_added": "Tue May 26 15:07:49 2015 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Sudoku",
+      "category-ids": [
+        "game"
+      ],
+      "source": "https://github.com/christopherdro/react-native-sudoku",
+      "screenshots":[
+        "https://github.com/christopherdro/react-native-sudoku/raw/master/demo.gif"
+      ],
+      "stars": 41,
+      "license": "other",
+      "date_added": "Thu Mar 10 07:41:09 2016 -0800",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "To Do List",
+      "category-ids": [
+        "tasks"
+      ],
+      "source": "https://github.com/joemaddalone/react-native-todo",
+      "stars": 95,
+      "license": "other",
+      "date_added": "Mon Jun 20 07:40:35 2016 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Twitch",
+      "category-ids": [
+        "video",
+        "social",
+        "game"
+      ],
+      "source": "https://github.com/IFours/react-native-twitch",
+      "screenshots":[
+        "https://github.com/IFours/react-native-twitch/raw/rn0.15/assets/twitch.gif"
+      ],
+      "stars": 74,
+      "license": "other",
+      "date_added": "Thu Feb 4 11:48:21 2016 -0800",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Weather by JakeLin",
+      "category-ids": [
+        "weather"
+      ],
+      "license": "mit",
+      "source": "https://github.com/JakeLin/ReactNativeWeather",
+      "screenshots":[
+        "https://raw.githubusercontent.com/JakeLin/ReactNativeWeather/master/screenshots/screenshot-iOS.png"
+      ],
+      "stars": 16,
+      "date_added": "Tue May 3 08:57:34 2016 -0700",
+      "suggested_by": "@dkhamsing"
+    },
+    {
+      "title": "Whatsapp",
+      "category-ids": [
+        "communication",
+        "clone"
+      ],
+      "source": "https://github.com/VctrySam/whatsapp",
+      "stars": 602,
+      "license": "other",
+      "date_added": "Mon Aug 14 08:18:58 2016 -0800",
+      "suggested_by": "@vitorebatista"
+    },
+    {
+      "title": "SnapChat",
+      "category-ids": [
+        "social",
+        "clone"
+      ],
+      "source": "https://github.com/VctrySam/SnapChat",
+      "stars": 190,
+      "license": "other",
+      "date_added": "Mon Aug 14 08:19:58 2016 -0800",
+      "suggested_by": "@vitorebatista"
+    },
+    {
+      "title": "Pokemon",
+      "category-ids": [
+        "game",
+        "clone"
+      ],
+      "source": "https://github.com/VctrySam/Pokemon",
+      "stars": 91,
+      "license": "other",
+      "date_added": "Mon Aug 14 08:06:58 2016 -0800",
+      "suggested_by": "@vitorebatista"
+    },
+    {
+      "title": "Tinder",
+      "category-ids": [
+        "social",
+        "clone"
+      ],
+      "source": "https://github.com/VctrySam/Tinder",
+      "stars": 91,
+      "license": "other",
+      "date_added": "Mon Aug 14 08:06:58 2016 -0800",
+      "suggested_by": "@vitorebatista"
+    },
+    {
+      "title": "Twitter",
+      "category-ids": [
+        "social",
+        "communication",
+        "clone"
+      ],
+      "source": "https://github.com/VctrySam/Twitter",
+      "stars": 34,
+      "license": "other",
+      "date_added": "Mon Aug 14 08:06:58 2016 -0800",
+      "suggested_by": "@vitorebatista"
+    },
+    {
+      "title": "AirBnb",
+      "category-ids": [
+        "clone"
+      ],
+      "source": "https://github.com/VctrySam/AirBnb",
+      "stars": 62,
+      "license": "other",
+      "date_added": "Mon Aug 14 08:06:58 2016 -0800",
+      "suggested_by": "@vitorebatista"
+    },
+    {
+      "title": "FC Barcelona",
+      "category-ids": [
+        "clone"
+      ],
+      "source": "https://github.com/VctrySam/FCBarca",
+      "stars": 2,
+      "license": "other",
+      "date_added": "Mon Aug 14 08:06:58 2016 -0800",
+      "suggested_by": "@vitorebatista"
+    },
+    {
+      "title": "Payment",
+      "category-ids": [
+        "clone"
+      ],
+      "description":"An easy to use payments component in React Native",
+      "source": "https://github.com/VctrySam/Payments-React-Native",
+      "stars": 2,
+      "license": "other",
+      "date_added": "Mon Aug 14 08:06:58 2016 -0800",
+      "suggested_by": "@vitorebatista"
+    }
+  ]
+}
