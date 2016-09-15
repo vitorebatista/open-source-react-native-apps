@@ -6,7 +6,7 @@
 
 A collaborative list of open-source React-Native apps, your [contribution](https://github.com/vitorebatista/open-source-react-native-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:
 
-![](https://img.shields.io/badge/Projects-45-green.svg) [![](https://img.shields.io/badge/Twitter-@vitorebatista-blue.svg)](https://twitter.com/vitorebatista) ![](https://img.shields.io/badge/Updated-September 14, 2016-lightgrey.svg)
+![](https://img.shields.io/badge/Projects-45-green.svg) [![](https://img.shields.io/badge/Twitter-@vitorebatista-blue.svg)](https://twitter.com/vitorebatista) ![](https://img.shields.io/badge/Updated-September 15, 2016-lightgrey.svg)
 
 Jump to
 
@@ -397,7 +397,7 @@ Mostly using http://giphy.com/ — [back to top](#readme)
 
 ## Thanks
 
-This list was inspired by [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps). Thanks to all the [contributors](https://github.com/dkhamsing/open-source-react-native-apps/graphs/contributors) 🎉 
+This list was inspired by [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps). Thanks to all the [contributors](https://github.com/vitorebatista/open-source-react-native-apps/graphs/contributors) 🎉 
 
 ## Contact
 
