@@ -65,16 +65,16 @@ def output_apps(apps)
     o <<  "<details><summary>"
 
     details = if tags.nil?
-      '`rn` '
+      '<code>RN</code> '
     else
       ''
     end
 
     unless tags.nil?
-      details << '`swift` ' if tags.include? 'swift'
+      details << '<code>swift</code> ' if tags.include? 'swift'
 
       tags.each do |t|
-        details << "`#{t.downcase}` " if t.downcase!='swift'
+        details << "<code>#{t.downcase}</code> " if t.downcase!='swift'
       end
     end
 
