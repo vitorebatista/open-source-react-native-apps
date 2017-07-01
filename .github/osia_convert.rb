@@ -109,22 +109,20 @@ def output_apps(apps)
       details_list.push "License: #{license_display}"
     end
 
-    details = '  '
+    details = "\n\n  "
     details << details_list[0]
     details_list[1..-1].each { |x| details << "<br>  #{x}" }
 
     unless screenshots.nil?
-      details << "\n<div>"
+      details << "\n  <div>"
       screenshots.each_with_index do |s, i|
         details << "<img height='300' alt='#{name} image #{i+1}' src='#{screenshots[i]}'> "
       end
       details << "\n</div>"
     end
 
-    details << "\n  </details>\n"
+    details << "\n  </details>\n\n"
     o << details
-
-    o << "</details> \n"
   end
   o
 end
@@ -132,6 +130,7 @@ end
 def output_badges(count)
   date = DateTime.now
   date_display = date.strftime "%B %e, %Y"
+  date_display = date_display.gsub ' ', '%20'
 
   b = "![](https://img.shields.io/badge/Projects-#{count}-green.svg) [![](https://img.shields.io/badge/Twitter-@vitorebatista-blue.svg)](https://twitter.com/vitorebatista) ![](https://img.shields.io/badge/Updated-#{date_display}-lightgrey.svg)"
   b
