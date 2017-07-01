@@ -62,7 +62,7 @@ def output_apps(apps)
     end
     o << "- #{t} \n"
 
-    o <<  "<details><summary>"
+    o <<  "  <details><summary>"
 
     details = if tags.nil?
       '<code>RN</code> '

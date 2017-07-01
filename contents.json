@@ -86,22 +86,14 @@
       "category-ids": [
         "conference"
       ],
+      "screenshots": [
+        "http://res.cloudinary.com/mikkoj/image/upload/v1467119333/nortal-techday-1.mov_triupn.gif",
+        "http://res.cloudinary.com/mikkoj/image/upload/v1467119489/nortal-techday-2.mov_lcvqqx.gif"
+      ],
       "source": "https://github.com/mikkoj/NortalTechDay",
-      "stars": 190,
+      "stars": 213,
       "license": "mit",
       "date_added": "Sun May 3 09:15:53 2015 -0700",
-      "suggested_by": "@dkhamsing"
-    },
-    {
-      "title": "Weather by jsphkhan",
-      "category-ids": [
-        "weather"
-      ],
-      "homepage": "https://github.com/jsphkhan/ReactNativeExamples/tree/master/ios/WeatherApp",
-      "source": "https://github.com/jsphkhan/ReactNativeExamples",
-      "license": "mit",
-      "stars": 85,
-      "date_added": "Mon May 4 07:38:59 2015 -0700",
       "suggested_by": "@dkhamsing"
     },
     {
@@ -112,7 +104,10 @@
       "description": "NBA game scores",
       "license": "mit",
       "source": "https://github.com/wwayne/react-native-nba-app",
-      "stars": 919,
+      "stars": 1485,
+      "screenshots": [
+        "https://cloud.githubusercontent.com/assets/5305874/12059257/dacf1ad0-af92-11e5-920c-ba4818d8dc1d.png"
+      ],
       "date_added": "Wed, 6 Jan 2016 11:37:19 -0800",
       "suggested_by": "@dkhamsing"
     },
@@ -187,7 +182,7 @@
         "https://github.com/buildreactnative/assemblies/raw/master/screenshots/assemblies-b.png",
         "https://github.com/buildreactnative/assemblies/raw/master/screenshots/assemblies-c.png"
       ],
-      "stars": 181,
+      "stars": 250,
       "license": "other",
       "date_added": "Mon May 2 07:40:43 2016 -0700",
       "suggested_by": "@dkhamsing"
@@ -203,7 +198,7 @@
       "screenshots": [
         "https://github.com/benoitvallon/react-native-nw-react-calculator/raw/master/images/mobile-apps.png"
       ],
-      "stars": 3056,
+      "stars": 3786,
       "date_added": "Mon Mar 23 13:37:57 2015 -0700",
       "suggested_by": "@dkhamsing"
     },
@@ -218,7 +213,7 @@
       "screenshots": [
         "https://cloud.githubusercontent.com/assets/5133623/7338978/01976cce-ec13-11e4-9b79-f2e2e47503b6.jpg"
       ],
-      "stars": 265,
+      "stars": 357,
       "date_added": "Fri May 29 07:38:01 2015 -0700",
       "suggested_by": "@dkhamsing"
     },
@@ -235,7 +230,7 @@
       "screenshots":[
         "https://cloud.githubusercontent.com/assets/2805320/8113463/db61b072-1076-11e5-8aa2-52417f019ea0.jpg"
       ],
-      "stars": 1283,
+      "stars": 1626,
       "date_added": "Sat Jun 13 07:33:39 2015 -0700",
       "suggested_by": "@xu6148152"
     },
@@ -247,7 +242,7 @@
       ],
       "description": "Official F8 app",
       "source": "https://github.com/fbsamples/f8app",
-      "stars": 7139,
+      "stars": 9994,
       "license": "other",
       "screenshots": [
         "https://github.com/fbsamples/f8app/raw/master/.github/screenshot-app@2x.png"
@@ -265,7 +260,7 @@
       "screenshots":[
         "https://github.com/brentvatne/react-native-login/raw/master/demo!!!.gif"
       ],
-      "stars": 459,
+      "stars": 578,
       "license": "other",
       "date_added": "Tue Apr 14 07:22:46 2015 -0700",
       "suggested_by": "@dkhamsing"
@@ -287,7 +282,7 @@
         "https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot4.png",
         "https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot5.png"
       ],
-      "stars": 746,
+      "stars": 1177,
       "date_added": "Wed Jul 8 06:45:27 2015 -0700",
       "suggested_by": "@dkhamsing"
     },
@@ -301,7 +296,7 @@
         "https://cloud.githubusercontent.com/assets/238536/7063949/469613cc-deab-11e4-9d67-c727bcc0171b.png",
         "https://cloud.githubusercontent.com/assets/238536/7063950/46983512-deab-11e4-8f67-3111e711aa3b.png"
       ],
-      "stars": 11,
+      "stars": 13,
       "license": "other",
       "date_added": "Fri Jul 24 07:24:09 2015 -0700",
       "suggested_by": "@dkhamsing"
@@ -315,7 +310,7 @@
       "source": "https://github.com/iSimar/HackerNews-React-Native",
       "googleplay":"https://play.google.com/store/apps/details?id=com.hackernews",
       "itunes": "https://itunes.apple.com/app/hacker-news-reader-react-native/id1067161633",
-      "stars": 2345,
+      "stars": 2967,
       "screenshots": [
         "http://imgur.com/8OV8MVj.gif","http://imgur.com/9mrmir9.gif",
         "http://imgur.com/KuySKlC.gif","http://i.imgur.com/88ZW3Ls.gif"
@@ -332,7 +327,7 @@
       "license": "mit",
       "source": "https://github.com/paranoida/IcelandEarthquakes",
       "screenshots":["https://raw.githubusercontent.com/paranoida/IcelandEarthquakes/master/preview.png"],
-      "stars": 23,
+      "stars": 24,
       "date_added": "Thu May 7 07:22:47 2015 -0700",
       "suggested_by": "@dkhamsing"
     },
@@ -533,7 +528,7 @@
         "clone"
       ],
       "source": "https://github.com/VctrySam/whatsapp",
-      "stars": 602,
+      "stars": 967,
       "license": "other",
       "date_added": "Mon Aug 14 08:18:58 2016 -0800",
       "suggested_by": "@vitorebatista"
@@ -545,7 +540,7 @@
         "clone"
       ],
       "source": "https://github.com/VctrySam/SnapChat",
-      "stars": 190,
+      "stars": 431,
       "license": "other",
       "date_added": "Mon Aug 14 08:19:58 2016 -0800",
       "suggested_by": "@vitorebatista"
@@ -557,7 +552,7 @@
         "clone"
       ],
       "source": "https://github.com/VctrySam/Pokemon",
-      "stars": 91,
+      "stars": 169,
       "license": "other",
       "date_added": "Mon Aug 14 08:06:58 2016 -0800",
       "suggested_by": "@vitorebatista"
@@ -569,7 +564,7 @@
         "clone"
       ],
       "source": "https://github.com/VctrySam/Tinder",
-      "stars": 91,
+      "stars": 367,
       "license": "other",
       "date_added": "Mon Aug 14 08:06:58 2016 -0800",
       "suggested_by": "@vitorebatista"
@@ -582,7 +577,7 @@
         "clone"
       ],
       "source": "https://github.com/VctrySam/Twitter",
-      "stars": 34,
+      "stars": 91,
       "license": "other",
       "date_added": "Mon Aug 14 08:06:58 2016 -0800",
       "suggested_by": "@vitorebatista"
@@ -593,7 +588,7 @@
         "clone"
       ],
       "source": "https://github.com/VctrySam/AirBnb",
-      "stars": 62,
+      "stars": 238,
       "license": "other",
       "date_added": "Mon Aug 14 08:06:58 2016 -0800",
       "suggested_by": "@vitorebatista"
@@ -604,19 +599,7 @@
         "clone"
       ],
       "source": "https://github.com/VctrySam/FCBarca",
-      "stars": 2,
-      "license": "other",
-      "date_added": "Mon Aug 14 08:06:58 2016 -0800",
-      "suggested_by": "@vitorebatista"
-    },
-    {
-      "title": "Payment",
-      "category-ids": [
-        "clone"
-      ],
-      "description":"An easy to use payments component in React Native",
-      "source": "https://github.com/VctrySam/Payments-React-Native",
-      "stars": 2,
+      "stars": 32,
       "license": "other",
       "date_added": "Mon Aug 14 08:06:58 2016 -0800",
       "suggested_by": "@vitorebatista"
@@ -692,6 +675,22 @@
       "suggested_by": "@vitorebatista",
       "date_added": "Jul 1 2017",
       "stars": 81
+    },
+    {
+      "title": "Kitten Tricks",
+      "description": "A perfect starter kit for your next cross-platform React Native app.",
+      "source": "https://github.com/akveo/kittenTricks",
+      "screenshots":[
+        "https://i.imgur.com/wgod3bf.jpg"
+      ],
+      "category-ids": [
+        "sample"
+      ],
+      "googleplay":"https://play.google.com/store/apps/details?id=com.akveo.kittenTricks",
+      "itunes": "https://itunes.apple.com/us/app/kitten-tricks/id1246143230",
+      "suggested_by": "@vitorebatista",
+      "date_added": "Jul 1 2017",
+      "stars": 1351
     }
   ]
 }
