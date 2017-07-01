@@ -6,7 +6,7 @@
 
 A collaborative list of open-source React-Native apps, your [contribution](https://github.com/vitorebatista/open-source-react-native-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:
 
-![](https://img.shields.io/badge/Projects-45-green.svg) [![](https://img.shields.io/badge/Twitter-@vitorebatista-blue.svg)](https://twitter.com/vitorebatista) ![](https://img.shields.io/badge/Updated-September 15, 2016-lightgrey.svg)
+![](https://img.shields.io/badge/Projects-46-green.svg) [![](https://img.shields.io/badge/Twitter-@vitorebatista-blue.svg)](https://twitter.com/vitorebatista) ![](https://img.shields.io/badge/Updated-July  1, 2017-lightgrey.svg)
 
 Jump to
 
@@ -128,6 +128,12 @@ Click ► to show more details
 </details> 
 - Nortal TechDay 2015  
 <details><summary>`rn` 🔥</summary>  https://github.com/mikkoj/NortalTechDay<br>  Added May  3, 2015<br>  License: [`mit`](http://choosealicense.com/licenses/mit/)
+  </details>
+</details> 
+- The official Chain React Conf App [` App Store`](https://itunes.apple.com/us/app/chain-react-conf/id1239112816) [`Google Play`](https://play.google.com/store/apps/details?id=com.chainreactapp)  
+<details><summary>`rn` </summary>  https://github.com/infinitered/ChainReactApp<br>  Added July  1, 2017
+<div><img height='300' alt='The official Chain React Conf App image 1' src='https://github.com/infinitered/ChainReactApp/blob/master/_art/marketing.jpg?raw=true'> 
+</div>
   </details>
 </details> 
 

@@ -677,6 +677,21 @@
       "tags": ["other"],
       "suggested_by": "@dkhamsing",
       "stars": 3635
+    },
+    {
+      "title": "The official Chain React Conf App",
+      "source": "https://github.com/infinitered/ChainReactApp",
+      "screenshots":[
+        "https://github.com/infinitered/ChainReactApp/blob/master/_art/marketing.jpg?raw=true"
+      ],
+      "category-ids": [
+        "conference"
+      ],
+      "googleplay":"https://play.google.com/store/apps/details?id=com.chainreactapp",
+      "itunes": "https://itunes.apple.com/us/app/chain-react-conf/id1239112816",
+      "suggested_by": "@vitorebatista",
+      "date_added": "Jul 1 2017",
+      "stars": 81
     }
   ]
 }
