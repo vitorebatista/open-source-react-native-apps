@@ -691,6 +691,22 @@
       "suggested_by": "@vitorebatista",
       "date_added": "Jul 1 2017",
       "stars": 1351
+    },
+    {
+      "title": "GitPoint",
+      "category-ids": [
+        "developer"
+      ],
+      "description": "A beautiful mobile GitHub client written in React Native.",
+      "license": "mit",
+      "source": "https://github.com/gitpoint/git-point",
+      "screenshots":[
+        "http://i.imgur.com/P4YoYYu.png"
+      ],
+      "stars": 1746,
+      "itunes": "https://itunes.apple.com/app/gitpoint/id1251245162",
+      "date_added": "Jul 26 2017",
+      "suggested_by": "@amdrewda"
     }
   ]
 }
