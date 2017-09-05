@@ -3,10 +3,14 @@
 <!-- 
 ⚠️ This README is generated, please do not update. To contribute, make changes to contents.json ⚠️ 
  https://github.com/vitorebatista/open-source-react-native-apps -->
+ 
+ 
 
 A collaborative list of open-source React-Native apps, your [contribution](https://github.com/vitorebatista/open-source-react-native-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:
 
 ![](https://img.shields.io/badge/Projects-45-green.svg) [![](https://img.shields.io/badge/Twitter-@vitorebatista-blue.svg)](https://twitter.com/vitorebatista) ![](https://img.shields.io/badge/Updated-July%20%201,%202017-lightgrey.svg)
+
+<a href="https://app.codesponsor.io/link/cmgbt4JRWWgGTVvpDeuFQ14p/vitorebatista/open-source-react-native-apps" rel="nofollow"><img src="https://app.codesponsor.io/embed/cmgbt4JRWWgGTVvpDeuFQ14p/vitorebatista/open-source-react-native-apps.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
 
 Jump to
 
