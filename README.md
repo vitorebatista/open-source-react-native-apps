@@ -1,523 +1,154 @@
-# Open-Source React-Native Apps
-
-<!-- 
-⚠️ This README is generated, please do not update. To contribute, make changes to contents.json ⚠️ 
- https://github.com/vitorebatista/open-source-react-native-apps -->
- 
- 
-
-A collaborative list of open-source React-Native apps, your [contribution](https://github.com/vitorebatista/open-source-react-native-apps/blob/master/.github/CONTRIBUTING.md) is welcome :smile:
-
-![](https://img.shields.io/badge/Projects-45-green.svg) [![](https://img.shields.io/badge/Twitter-@vitorebatista-blue.svg)](https://twitter.com/vitorebatista) ![](https://img.shields.io/badge/Updated-July%20%201,%202017-lightgrey.svg)
-
-<a href="https://app.codesponsor.io/link/cmgbt4JRWWgGTVvpDeuFQ14p/vitorebatista/open-source-react-native-apps" rel="nofollow"><img src="https://app.codesponsor.io/embed/cmgbt4JRWWgGTVvpDeuFQ14p/vitorebatista/open-source-react-native-apps.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
-
-Jump to
-
-- [Clone](#clone) 
-- [Communication](#communication) 
-- [Conference](#conference) 
-- [Developer](#developer) 
-- [Game](#game) 
-- [Media](#media) 
-  - [Audio](#audio) 
-  - [Content](#content) 
-  - [GIF](#gif) 
-  - [Video](#video) 
-- [News](#news) 
-- [Official](#official) 
-- [Sample](#sample) 
-- [Social](#social) 
-- [Tasks](#tasks) 
-- [Bonus](#bonus) 
-- [Weather](#weather) 
-- [Thanks](#thanks)
-- [Contact](#contact)
+# Open-Source React Native Apps
+
+A curated hub for learning React Native by reading real code. This list collects production-grade open-source apps, starter kits, core libraries, and learning resources — so you can go from "hello world" to shipping an app, and study how large teams ship RN in the real world.
+
+[![](https://img.shields.io/badge/Twitter-@vitorebatista-blue.svg)](https://twitter.com/vitorebatista)
+
+> Contributions welcome — open a PR against this README or file an issue suggesting an app, library, or resource.
+
+## Contents
+
+- [Production Apps](#production-apps) — large, actively maintained apps you can learn from
+- [Starters & Boilerplates](#starters--boilerplates)
+- [Learning Resources](#learning-resources)
+- [Core Libraries & Ecosystem](#core-libraries--ecosystem)
+- [Sample & Demo Apps](#sample--demo-apps)
+- [Classic Apps](#classic-apps) — historically interesting, many unmaintained
+- [Related Awesome Lists](#related-awesome-lists)
+- [Contributing](#contributing)
+
+---
 
-```
- 100+ Stars: 🔥
- 200+ Stars: 🔥🔥
- 500+ Stars: 🔥🔥🔥
-1000+ Stars: 🔥🔥🔥🔥
-2000+ Stars: 🔥🔥🔥🔥🔥
+## Production Apps
 
-Most projects are in English, exceptions have a flag
-🇨🇳 Project is in Chinese
-🇪🇸 Project is in Spanish, etc
+Real apps shipped to the App Store / Google Play by companies and communities. Reading these codebases is the fastest way to see how RN is used at scale — navigation, state, native modules, CI, testing, monorepos.
 
-Click ► to show more details
-```
-
-## Clone 
- 
-[back to top](#readme) 
- 
-- AirBnb  
-  <details><summary><code>RN</code> 🔥🔥</summary>
+- **[Expensify/App](https://github.com/Expensify/App)** — Expensify's New Expensify super-app. One of the largest open-source React Native codebases on GitHub. Ships to iOS, Android, web, and desktop from a single repo.
+- **[bluesky-social/social-app](https://github.com/bluesky-social/social-app)** — The official Bluesky client. Excellent reference for a modern Expo + TypeScript social app with a complex feed, lexicons, and i18n.
+- **[mattermost/mattermost-mobile](https://github.com/mattermost/mattermost-mobile)** — Mattermost's official mobile client. Strong example of offline-first architecture, WatermelonDB, and WebSocket sync.
+- **[RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)** — Rocket.Chat mobile client. Good patterns for realtime chat, E2EE, and navigation.
+- **[artsy/eigen](https://github.com/artsy/eigen)** — Artsy's iOS/Android app. Long-running RN codebase with detailed engineering blog posts and GraphQL/Relay usage.
+- **[status-im/status-mobile](https://github.com/status-im/status-mobile)** — Ethereum messenger, wallet, and Web3 browser. RN + ClojureScript — unusual but instructive.
+- **[jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet)** — The Jitsi Meet video-conferencing mobile app is built with React Native.
+- **[chatwoot/chatwoot-mobile-app](https://github.com/chatwoot/chatwoot-mobile-app)** — Open-source customer engagement platform's mobile client.
+- **[tiajinsha/JKVideo](https://github.com/tiajinsha/JKVideo)** — Feature-rich Bilibili-like client. Real-world example of DASH playback, real-time danmaku via WebSocket, global mini-player with Zustand, QR-code login, and offline downloads. RN 0.83 + Expo SDK 55 + expo-router.
+- **[alichherawalla/off-grid-mobile](https://github.com/alichherawalla/off-grid-mobile)** — Runs LLMs, vision models, and Stable Diffusion entirely on-device (llama.cpp / llm.rn, Core ML). Excellent reference for on-device ML in React Native.
+- **[wordpress-mobile/WordPress-iOS](https://github.com/wordpress-mobile/WordPress-iOS)** / **[WordPress-Android](https://github.com/wordpress-mobile/WordPress-Android)** — Native shells that embed the React Native Gutenberg block editor. See also [gutenberg-mobile](https://github.com/WordPress/gutenberg-mobile).
+- **[HabitRPG/habitica-mobile](https://github.com/HabitRPG/habitica-mobile)** — Gamified habit tracker.
+- **[gitpoint/git-point](https://github.com/gitpoint/git-point)** — Fully featured GitHub client. Classic reference for Redux + RN structure.
+- **[oblador/react-native-vector-icons (example app)](https://github.com/oblador/react-native-vector-icons)** — Not an app, but the example app and fabric integration are widely studied.
+- **[microsoft/react-native-windows-samples](https://github.com/microsoft/react-native-windows-samples)** — Samples for running React Native on Windows / Xbox.
 
-  https://github.com/VctrySam/AirBnb<br>  Added August 14, 2016<br>  License: `other`
-  </details>
+## Starters & Boilerplates
 
-- Assemblies: Developer-focused Meetup clone  
-  <details><summary><code>RN</code> 🔥🔥</summary>
+Production-ready templates — the fastest way to bootstrap a serious app.
 
-  https://github.com/buildreactnative/assemblies<br>  Added May  2, 2016<br>  License: `other`
-  <div><img height='300' alt='Assemblies image 1' src='https://github.com/buildreactnative/assemblies/raw/master/screenshots/assemblies-a.png'> <img height='300' alt='Assemblies image 2' src='https://github.com/buildreactnative/assemblies/raw/master/screenshots/assemblies-b.png'> <img height='300' alt='Assemblies image 3' src='https://github.com/buildreactnative/assemblies/raw/master/screenshots/assemblies-c.png'> 
-</div>
-  </details>
+- **[infinitered/ignite](https://github.com/infinitered/ignite)** — Infinite Red's battle-tested boilerplate. Ships with MobX State Tree, Reactotron, TypeScript, and a generators CLI.
+- **[akveo/kittenTricks](https://github.com/akveo/kittenTricks)** — Design-system–heavy starter built on UI Kitten. Dozens of screens you can lift wholesale.
+- **[expo/examples](https://github.com/expo/examples)** — Official Expo examples for every major library and pattern.
+- **[obytes/react-native-template-obytes](https://github.com/obytes/react-native-template-obytes)** — Opinionated Expo + TypeScript + NativeWind + i18n starter.
+- **[thecodingmachine/react-native-boilerplate](https://github.com/thecodingmachine/react-native-boilerplate)** — Long-running community boilerplate with clean architecture.
+- **[rainbow-me/rainbow](https://github.com/rainbow-me/rainbow)** — Rainbow wallet. Not strictly a "starter" but frequently forked as a reference for a polished, animation-heavy RN app.
 
-- Dribbble: Dribbble app built with React Native  
-  <details><summary><code>parallax</code> 🔥🔥🔥🔥</summary>
+## Learning Resources
 
-  https://github.com/catalinmiron/react-native-dribbble-app<br>  Added June 13, 2015<br>  License: [`mit`](http://choosealicense.com/licenses/mit/)
-  <div><img height='300' alt='Dribbble image 1' src='https://cloud.githubusercontent.com/assets/2805320/8113463/db61b072-1076-11e5-8aa2-52417f019ea0.jpg'> 
-</div>
-  </details>
+Official docs and tutorials. Start here if you're new.
 
-- FC Barcelona  
-  <details><summary><code>RN</code> </summary>
+- **[React Native docs](https://reactnative.dev)** — Official documentation. The "Guides" section is the canonical starting point.
+- **[Expo docs](https://docs.expo.dev)** — Expo is the recommended way to start new RN projects as of the 2024 docs.
+- **[React Navigation docs](https://reactnavigation.org)** — The de-facto navigation library. Read the "Fundamentals" guide early.
+- **[React Native Directory](https://reactnative.directory)** — Searchable index of RN libraries with platform compatibility and maintenance signals.
+- **[reactnative.express](https://www.reactnative.express)** — Free online book, great second stop after the official tutorial.
+- **[Ignite Cookbook](https://ignitecookbook.com)** — Recipe-style solutions to common RN problems, curated by Infinite Red.
+- **[Callstack blog](https://www.callstack.com/blog)** and **[Software Mansion blog](https://blog.swmansion.com)** — The two companies behind most of the core native-facing libraries (Reanimated, Gesture Handler, Re.Pack, Skia bindings). High-signal engineering writing.
 
-  https://github.com/VctrySam/FCBarca<br>  Added August 14, 2016<br>  License: `other`
-  </details>
+## Core Libraries & Ecosystem
 
-- Finance: iOS's Stocks app written in React Native [`Google Play`](https://play.google.com/store/apps/details?id=com.kfpun.finance)  
-  <details><summary><code>RN</code> 🔥🔥🔥🔥</summary>
+The libraries you'll encounter in almost every serious React Native app.
 
-  https://github.com/7kfpun/FinanceReactNative<br>  Added July  8, 2015<br>  License: [`mit`](http://choosealicense.com/licenses/mit/)
-  <div><img height='300' alt='Finance image 1' src='https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot0.png'> <img height='300' alt='Finance image 2' src='https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot1.png'> <img height='300' alt='Finance image 3' src='https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot2.png'> <img height='300' alt='Finance image 4' src='https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot3.png'> <img height='300' alt='Finance image 5' src='https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot4.png'> <img height='300' alt='Finance image 6' src='https://raw.github.com/7kfpun/FinanceReactNative/master/screenshots/screenshot5.png'> 
-</div>
-  </details>
+### Navigation & Routing
+- **[react-navigation/react-navigation](https://github.com/react-navigation/react-navigation)** — Default navigation stack.
+- **[wix/react-native-navigation](https://github.com/wix/react-native-navigation)** — Fully native navigation alternative.
+- **[expo/router](https://github.com/expo/expo/tree/main/packages/expo-router)** — File-based routing built on React Navigation.
 
-- Pokemon  
-  <details><summary><code>RN</code> 🔥</summary>
+### Animation & Gestures
+- **[software-mansion/react-native-reanimated](https://github.com/software-mansion/react-native-reanimated)** — The animation library.
+- **[software-mansion/react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler)** — Native-threaded gesture system.
+- **[Shopify/react-native-skia](https://github.com/Shopify/react-native-skia)** — Skia graphics for RN. Powers complex drawing, charts, shaders.
+- **[gorhom/react-native-bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet)** — The standard bottom sheet.
 
-  https://github.com/VctrySam/Pokemon<br>  Added August 14, 2016<br>  License: `other`
-  </details>
+### UI & Styling
+- **[callstack/react-native-paper](https://github.com/callstack/react-native-paper)** — Material Design components.
+- **[tamagui/tamagui](https://github.com/tamagui/tamagui)** — Universal (RN + web) styling and component system with a compiler.
+- **[nativewind/nativewind](https://github.com/nativewind/nativewind)** — Tailwind CSS for React Native.
+- **[GeekyAnts/NativeBase](https://github.com/GeekyAnts/NativeBase)** — Component library (maintenance mode but still referenced).
+- **[akveo/react-native-ui-kitten](https://github.com/akveo/react-native-ui-kitten)** — Eva Design–based components.
 
-- SnapChat  
-  <details><summary><code>RN</code> 🔥🔥</summary>
+### Lists & Performance
+- **[Shopify/flash-list](https://github.com/Shopify/flash-list)** — High-performance list component, drop-in `FlatList` replacement.
+- **[software-mansion/react-native-screens](https://github.com/software-mansion/react-native-screens)** — Native screen container primitives.
 
-  https://github.com/VctrySam/SnapChat<br>  Added August 14, 2016<br>  License: `other`
-  </details>
+### Storage & Data
+- **[mrousavy/react-native-mmkv](https://github.com/mrousavy/react-native-mmkv)** — Fast key-value storage backed by MMKV.
+- **[Nozbe/WatermelonDB](https://github.com/Nozbe/WatermelonDB)** — Reactive, offline-first database for large datasets.
+- **[TanStack/query](https://github.com/TanStack/query)** — Server-state caching; works great with RN.
+- **[pmndrs/zustand](https://github.com/pmndrs/zustand)** — Minimal state manager that plays well with RN.
 
-- Tinder  
-  <details><summary><code>RN</code> 🔥🔥</summary>
+### Native & Tooling
+- **[expo/expo](https://github.com/expo/expo)** — The Expo platform, SDK, and tools.
+- **[mrousavy/react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera)** — Modern camera library with frame processors.
+- **[margelo/react-native-worklets-core](https://github.com/margelo/react-native-worklets-core)** — Run JS on background threads (used by Vision Camera, Skia).
+- **[callstack/repack](https://github.com/callstack/repack)** — Webpack-based bundler toolkit for RN, useful for code-splitting and module federation.
+- **[jhen0409/react-native-debugger](https://github.com/jhen0409/react-native-debugger)** — Standalone debugger app.
 
-  https://github.com/VctrySam/Tinder<br>  Added August 14, 2016<br>  License: `other`
-  </details>
+### Universal (RN + Web)
+- **[nandorojo/solito](https://github.com/nandorojo/solito)** — React Native + Next.js, share code across mobile and web.
+- **[necolas/react-native-web](https://github.com/necolas/react-native-web)** — Run RN components in the browser.
 
-- Twitter  
-  <details><summary><code>RN</code> </summary>
+## Sample & Demo Apps
 
-  https://github.com/VctrySam/Twitter<br>  Added August 14, 2016<br>  License: `other`
-  </details>
+Smaller focused examples — good for reading in one sitting.
 
-- Whatsapp  
-  <details><summary><code>RN</code> 🔥🔥🔥</summary>
+- **[react-native-community/releases](https://github.com/react-native-community/releases)** and **[facebook/react-native](https://github.com/facebook/react-native)** — The official RNTester app (`packages/rn-tester`) is the best place to see every core component in isolation.
+- **[satya164/PocketGear](https://github.com/satya164/PocketGear)** — Pokédex-style app by the maintainer of React Navigation.
+- **[infinitered/ChainReactApp](https://github.com/infinitered/ChainReactApp)** — The Chain React conference app — updated yearly, always reflects current best practices.
 
-  https://github.com/VctrySam/whatsapp<br>  Added August 14, 2016<br>  License: `other`
-  </details>
+## Classic Apps
 
+Older apps kept here for historical reference. Many are unmaintained and target very old RN versions, but the commit history and structure are still educational.
 
-## Communication 
- 
-[back to top](#readme) 
- 
-- Twitter  
-  <details><summary><code>RN</code> </summary>
+<details><summary>Show classic entries</summary>
 
-  https://github.com/VctrySam/Twitter<br>  Added August 14, 2016<br>  License: `other`
-  </details>
+- [catalinmiron/react-native-dribbble-app](https://github.com/catalinmiron/react-native-dribbble-app) — Famous early parallax example.
+- [7kfpun/FinanceReactNative](https://github.com/7kfpun/FinanceReactNative) — iOS Stocks clone.
+- [wwayne/react-native-nba-app](https://github.com/wwayne/react-native-nba-app) — NBA scores app.
+- [fbsamples/f8app](https://github.com/fbsamples/f8app) — The original F8 2016 conference app. Historic — the first large open-source RN app Facebook shipped.
+- [buildreactnative/assemblies](https://github.com/buildreactnative/assemblies) — Meetup-style clone from a well-known 2016 book.
+- [jsdf/ReactNativeHackerNews](https://github.com/jsdf/ReactNativeHackerNews) / [iSimar/HackerNews-React-Native](https://github.com/iSimar/HackerNews-React-Native) — HN clients.
+- [brentvatne/react-native-login](https://github.com/brentvatne/react-native-login) — Early Facebook Login example by Brent Vatne.
+- [ColinEberhardt/ReactNative-PropertyFinder](https://github.com/ColinEberhardt/ReactNative-PropertyFinder) — Companion app for one of the first widely read RN tutorials.
 
-- Whatsapp  
-  <details><summary><code>RN</code> 🔥🔥🔥</summary>
+</details>
 
-  https://github.com/VctrySam/whatsapp<br>  Added August 14, 2016<br>  License: `other`
-  </details>
+## Related Awesome Lists
 
+- **[jondot/awesome-react-native](https://github.com/jondot/awesome-react-native)** — The canonical awesome-list for RN libraries, articles, and tools.
+- **[madhavanmalolan/awesome-reactnative-ui](https://github.com/madhavanmalolan/awesome-reactnative-ui)** — RN UI component catalog.
+- **[dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps)** — Open-source iOS apps (the original inspiration for this list).
+- **[pcqpcq/open-source-android-apps](https://github.com/pcqpcq/open-source-android-apps)** — Open-source Android apps.
+- **[Solido/awesome-flutter](https://github.com/Solido/awesome-flutter)** — For cross-referencing with Flutter.
 
-## Conference 
- 
-[back to top](#readme) 
- 
-- F8 2016: Official F8 app  
-  <details><summary><code>RN</code> 🔥🔥🔥🔥🔥</summary>
+## Contributing
 
-  https://github.com/fbsamples/f8app<br>  Added April 14, 2016<br>  License: `other`
-  <div><img height='300' alt='F8 2016 image 1' src='https://github.com/fbsamples/f8app/raw/master/.github/screenshot-app@2x.png'> 
-</div>
-  </details>
+Found a broken link, an app that's no longer maintained, or a great project that belongs here? Open an issue or PR. Guidelines:
 
-- london-react  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/JoeStanton/london-react<br>  Added August  2, 2015<br>  License: `other`
-  </details>
-
-- Nortal TechDay 2015  
-  <details><summary><code>RN</code> 🔥🔥</summary>
-
-  https://github.com/mikkoj/NortalTechDay<br>  Added May  3, 2015<br>  License: [`mit`](http://choosealicense.com/licenses/mit/)
-  <div><img height='300' alt='Nortal TechDay 2015 image 1' src='http://res.cloudinary.com/mikkoj/image/upload/v1467119333/nortal-techday-1.mov_triupn.gif'> <img height='300' alt='Nortal TechDay 2015 image 2' src='http://res.cloudinary.com/mikkoj/image/upload/v1467119489/nortal-techday-2.mov_lcvqqx.gif'> 
-</div>
-  </details>
-
-- The official Chain React Conf App [` App Store`](https://itunes.apple.com/us/app/chain-react-conf/id1239112816) [`Google Play`](https://play.google.com/store/apps/details?id=com.chainreactapp)  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/infinitered/ChainReactApp<br>  Added July  1, 2017
-  <div><img height='300' alt='The official Chain React Conf App image 1' src='https://github.com/infinitered/ChainReactApp/blob/master/_art/marketing.jpg?raw=true'> 
-</div>
-  </details>
-
-
-## Developer 
- 
-[back to top](#readme) 
- 
-- PocketNode: Lightweight Node REPL  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/mzabriskie/PocketNode<br>  Added February  4, 2016<br>  License: `other`
-  <div><img height='300' alt='PocketNode image 1' src='https://cloud.githubusercontent.com/assets/199035/10439739/49d80e60-70f9-11e5-94b1-16e06eeb3a8f.png'> 
-</div>
-  </details>
-
-- Product Kitty: Product Hunt app  
-  <details><summary><code>RN</code> 🔥</summary>
-
-  https://github.com/rkho/product-kitty<br>  Added September  2, 2015<br>  License: `other`
-  </details>
-
-- Property Finder  
-  <details><summary><code>RN</code> 🔥🔥</summary>
-
-  https://github.com/ColinEberhardt/ReactNative-PropertyFinder<br>  Added April 10, 2015<br>  License: `other`
-  </details>
-
-
-## Game 
- 
-[back to top](#readme) 
- 
-- 2048: App by Facebook  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/facebook/react-native/tree/master/Examples/2048<br>  Added February  5, 2016<br>  License: `other`
-  </details>
-
-- NBA allyoop: NBA game scores  
-  <details><summary><code>RN</code> 🔥🔥🔥🔥</summary>
-
-  https://github.com/wwayne/react-native-nba-app<br>  Added January  6, 2016<br>  License: [`mit`](http://choosealicense.com/licenses/mit/)
-  <div><img height='300' alt='NBA allyoop image 1' src='https://cloud.githubusercontent.com/assets/5305874/12059257/dacf1ad0-af92-11e5-920c-ba4818d8dc1d.png'> 
-</div>
-  </details>
-
-- PocketGear: PocketGear is a clean and simple Pokédex app for Pokémon GO you'll ever need, made by Pokémon enthusiasts to help you trainers get the best out of your Pokémons.  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/satya164/PocketGear<br>  Added September 14, 2016<br>  License: `other`
-  </details>
-
-- Pokemon  
-  <details><summary><code>RN</code> 🔥</summary>
-
-  https://github.com/VctrySam/Pokemon<br>  Added August 14, 2016<br>  License: `other`
-  </details>
-
-- PokeVision: React Native app leveraging the GoRadar API in order to display all the Pokémon around you.  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/Morhaus/rn-pokevision/<br>  Added September 14, 2016<br>  License: `other`
-  <div><img height='300' alt='PokeVision image 1' src='https://github.com/Morhaus/rn-pokevision/blob/master/screenshot.png'> 
-</div>
-  </details>
-
-- Sudoku  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/christopherdro/react-native-sudoku<br>  Added March 10, 2016<br>  License: `other`
-  <div><img height='300' alt='Sudoku image 1' src='https://github.com/christopherdro/react-native-sudoku/raw/master/demo.gif'> 
-</div>
-  </details>
-
-- TicTacToe: App by Facebook  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/facebook/react-native/tree/master/Examples/TicTacToe<br>  Added February  5, 2016<br>  License: `other`
-  </details>
-
-- Twitch  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/IFours/react-native-twitch<br>  Added February  4, 2016<br>  License: `other`
-  <div><img height='300' alt='Twitch image 1' src='https://github.com/IFours/react-native-twitch/raw/rn0.15/assets/twitch.gif'> 
-</div>
-  </details>
-
-
-## Media 
- 
-Image, video, audio, reading — [back to top](#readme) 
- 
-
-### Audio 
- 
-[back to top](#readme) 
- 
-- iTunes Catalog Search  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/alexissan/ReactNativeWorkshop<br>  Added June 13, 2015<br>  License: `other`
-  <div><img height='300' alt='iTunes Catalog Search image 1' src='https://github.com/alexissan/ReactNativeWorkshop/raw/master/Screenshots/scsh1.png'> <img height='300' alt='iTunes Catalog Search image 2' src='https://github.com/alexissan/ReactNativeWorkshop/raw/master/Screenshots/scsh2.png'> <img height='300' alt='iTunes Catalog Search image 3' src='https://github.com/alexissan/ReactNativeWorkshop/raw/master/Screenshots/scsh3.png'> 
-</div>
-  </details>
-
-- Songkick  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/ArnaudRinquin/sk-react-native<br>  Added October 27, 2015<br>  License: `other`
-  <div><img height='300' alt='Songkick image 1' src='https://github.com/ArnaudRinquin/sk-react-native/raw/master/screenshots.png'> 
-</div>
-  </details>
-
-
-### Content 
- 
-[back to top](#readme) 
- 
-
-### GIF 
- 
-Mostly using http://giphy.com/ — [back to top](#readme) 
- 
-
-### Video 
- 
-[back to top](#readme) 
- 
-- Movies: App by Facebook  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/facebook/react-native/tree/master/Examples/Movies<br>  Added February  5, 2016<br>  License: `other`
-  </details>
-
-- Twitch  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/IFours/react-native-twitch<br>  Added February  4, 2016<br>  License: `other`
-  <div><img height='300' alt='Twitch image 1' src='https://github.com/IFours/react-native-twitch/raw/rn0.15/assets/twitch.gif'> 
-</div>
-  </details>
-
-
-## News 
- 
-[back to top](#readme) 
- 
-- Hacker News app by jsdf  
-  <details><summary><code>RN</code> 🔥</summary>
-
-  https://github.com/jsdf/ReactNativeHackerNews<br>  Added March 30, 2016<br>  License: `other`
-  <div><img height='300' alt='Hacker News app by jsdf image 1' src='http://i.imgur.com/gVmrxDe.png'> <img height='300' alt='Hacker News app by jsdf image 2' src='http://i.imgur.com/FYOgBYc.png'> 
-</div>
-  </details>
-
-- HackerNews Reader: Hacker News Reader [` App Store`](https://itunes.apple.com/app/hacker-news-reader-react-native/id1067161633) [`Google Play`](https://play.google.com/store/apps/details?id=com.hackernews)  
-  <details><summary><code>RN</code> 🔥🔥🔥🔥🔥</summary>
-
-  https://github.com/iSimar/HackerNews-React-Native<br>  Added August 14, 2016<br>  License: `other`
-  <div><img height='300' alt='HackerNews Reader image 1' src='http://imgur.com/8OV8MVj.gif'> <img height='300' alt='HackerNews Reader image 2' src='http://imgur.com/9mrmir9.gif'> <img height='300' alt='HackerNews Reader image 3' src='http://imgur.com/KuySKlC.gif'> <img height='300' alt='HackerNews Reader image 4' src='http://i.imgur.com/88ZW3Ls.gif'> 
-</div>
-  </details>
-
-- newswatch: News app based on YouTube playlists  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/bradoyler/newswatch-react-native<br>  Added May 15, 2015<br>  License: `other`
-  <div><img height='300' alt='newswatch image 1' src='https://cloud.githubusercontent.com/assets/425966/7039857/2f122810-dd95-11e4-99c4-db636d4c66a9.gif'> 
-</div>
-  </details>
-
-- RSS Reader  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/christopherdro/react-native-rss-reader<br>  Added June 22, 2015<br>  License: `other`
-  <div><img height='300' alt='RSS Reader image 1' src='https://github.com/christopherdro/react-native-rss-reader/blob/master/RssReaderDemo.gif'> 
-</div>
-  </details>
-
-
-## Official 
- 
-[back to top](#readme) 
- 
-- F8 2016: Official F8 app  
-  <details><summary><code>RN</code> 🔥🔥🔥🔥🔥</summary>
-
-  https://github.com/fbsamples/f8app<br>  Added April 14, 2016<br>  License: `other`
-  <div><img height='300' alt='F8 2016 image 1' src='https://github.com/fbsamples/f8app/raw/master/.github/screenshot-app@2x.png'> 
-</div>
-  </details>
-
-
-## Sample 
- 
-[back to top](#readme) 
- 
-- Facebook Login  
-  <details><summary><code>RN</code> 🔥🔥🔥</summary>
-
-  https://github.com/brentvatne/react-native-login<br>  Added April 14, 2015<br>  License: `other`
-  <div><img height='300' alt='Facebook Login image 1' src='https://github.com/brentvatne/react-native-login/raw/master/demo!!!.gif'> 
-</div>
-  </details>
-
-- Iceland Earthquakes  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/paranoida/IcelandEarthquakes<br>  Added May  7, 2015<br>  License: [`mit`](http://choosealicense.com/licenses/mit/)
-  <div><img height='300' alt='Iceland Earthquakes image 1' src='https://raw.githubusercontent.com/paranoida/IcelandEarthquakes/master/preview.png'> 
-</div>
-  </details>
-
-- Kitten Tricks: A perfect starter kit for your next cross-platform React Native app. [` App Store`](https://itunes.apple.com/us/app/kitten-tricks/id1246143230) [`Google Play`](https://play.google.com/store/apps/details?id=com.akveo.kittenTricks)  
-  <details><summary><code>RN</code> 🔥🔥🔥🔥</summary>
-
-  https://github.com/akveo/kittenTricks<br>  Added July  1, 2017
-  <div><img height='300' alt='Kitten Tricks image 1' src='https://i.imgur.com/wgod3bf.jpg'> 
-</div>
-  </details>
-
-- UIExplorer: The UIExplorer is a sample app that showcases React Native views and modules.  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/facebook/react-native/tree/master/Examples/UIExplorer<br>  Added February  5, 2016<br>  License: `other`
-  </details>
-
-
-## Social 
- 
-[back to top](#readme) 
- 
-- Around Me: Display Instagram photos around your location  
-  <details><summary><code>instagram api</code> <code>mapview</code> 🔥</summary>
-
-  https://github.com/bgryszko/react-native-example<br>  Added October 13, 2015<br>  License: `other`
-  <div><img height='300' alt='Around Me image 1' src='https://cdn.rawgit.com/bgryszko/react-native-example/master/preview.gif'> 
-</div>
-  </details>
-
-- Assemblies: Developer-focused Meetup clone  
-  <details><summary><code>RN</code> 🔥🔥</summary>
-
-  https://github.com/buildreactnative/assemblies<br>  Added May  2, 2016<br>  License: `other`
-  <div><img height='300' alt='Assemblies image 1' src='https://github.com/buildreactnative/assemblies/raw/master/screenshots/assemblies-a.png'> <img height='300' alt='Assemblies image 2' src='https://github.com/buildreactnative/assemblies/raw/master/screenshots/assemblies-b.png'> <img height='300' alt='Assemblies image 3' src='https://github.com/buildreactnative/assemblies/raw/master/screenshots/assemblies-c.png'> 
-</div>
-  </details>
-
-- Den: View houses for sale in the Northwest  
-  <details><summary><code>RN</code> 🔥🔥</summary>
-
-  https://github.com/asamiller/den<br>  Added May 29, 2015<br>  License: [`mit`](http://choosealicense.com/licenses/mit/)
-  <div><img height='300' alt='Den image 1' src='https://cloud.githubusercontent.com/assets/5133623/7338978/01976cce-ec13-11e4-9b79-f2e2e47503b6.jpg'> 
-</div>
-  </details>
-
-- Dribbble: Dribbble app built with React Native  
-  <details><summary><code>parallax</code> 🔥🔥🔥🔥</summary>
-
-  https://github.com/catalinmiron/react-native-dribbble-app<br>  Added June 13, 2015<br>  License: [`mit`](http://choosealicense.com/licenses/mit/)
-  <div><img height='300' alt='Dribbble image 1' src='https://cloud.githubusercontent.com/assets/2805320/8113463/db61b072-1076-11e5-8aa2-52417f019ea0.jpg'> 
-</div>
-  </details>
-
-- Facebook Login  
-  <details><summary><code>RN</code> 🔥🔥🔥</summary>
-
-  https://github.com/brentvatne/react-native-login<br>  Added April 14, 2015<br>  License: `other`
-  <div><img height='300' alt='Facebook Login image 1' src='https://github.com/brentvatne/react-native-login/raw/master/demo!!!.gif'> 
-</div>
-  </details>
-
-- SnapChat  
-  <details><summary><code>RN</code> 🔥🔥</summary>
-
-  https://github.com/VctrySam/SnapChat<br>  Added August 14, 2016<br>  License: `other`
-  </details>
-
-- Tinder  
-  <details><summary><code>RN</code> 🔥🔥</summary>
-
-  https://github.com/VctrySam/Tinder<br>  Added August 14, 2016<br>  License: `other`
-  </details>
-
-- Twitch  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/IFours/react-native-twitch<br>  Added February  4, 2016<br>  License: `other`
-  <div><img height='300' alt='Twitch image 1' src='https://github.com/IFours/react-native-twitch/raw/rn0.15/assets/twitch.gif'> 
-</div>
-  </details>
-
-- Twitter  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/VctrySam/Twitter<br>  Added August 14, 2016<br>  License: `other`
-  </details>
-
-
-## Tasks 
- 
-[back to top](#readme) 
- 
-- To Do List  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/joemaddalone/react-native-todo<br>  Added June 20, 2016<br>  License: `other`
-  </details>
-
-
-## Bonus 
- 
-[back to top](#readme) 
- 
-- awesome-macOS  
-  <details><summary><code>other</code> 🔥🔥🔥🔥🔥</summary>
-
-  https://github.com/iCHAIT/awesome-macOS
-  </details>
-
-- open-source-android-apps  
-  <details><summary><code>other</code> 🔥🔥🔥🔥🔥</summary>
-
-  https://github.com/pcqpcq/open-source-android-apps
-  </details>
-
-- open-source-ios-apps  
-  <details><summary><code>other</code> 🔥🔥🔥🔥🔥</summary>
-
-  https://github.com/dkhamsing/open-source-ios-apps
-  </details>
-
-
-## Weather 
- 
-[back to top](#readme) 
- 
-- Weather by JakeLin  
-  <details><summary><code>RN</code> </summary>
-
-  https://github.com/JakeLin/ReactNativeWeather<br>  Added May  3, 2016<br>  License: [`mit`](http://choosealicense.com/licenses/mit/)
-  <div><img height='300' alt='Weather by JakeLin image 1' src='https://raw.githubusercontent.com/JakeLin/ReactNativeWeather/master/screenshots/screenshot-iOS.png'> 
-</div>
-  </details>
-
+- Apps must be **open source** (link to the repo, not just a store page).
+- Prefer apps that are **actively maintained** or **historically significant**.
+- For libraries, prefer ones that are widely used and still maintained.
 
 ## Thanks
 
-This list was inspired by [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps). Thanks to all the [contributors](https://github.com/vitorebatista/open-source-react-native-apps/graphs/contributors) 🎉 
+This list was originally inspired by [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps). Thanks to all the [contributors](https://github.com/vitorebatista/open-source-react-native-apps/graphs/contributors).
 
 ## Contact
 
