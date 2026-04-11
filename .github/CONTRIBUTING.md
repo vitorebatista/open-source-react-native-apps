@@ -1,19 +1,21 @@
-To contribute to`open-source-react-native-apps`, update the **contents.json** file (this will generate the README).
+# Contributing
 
-A new entry should update **contents.json** with this format:
+Thanks for helping keep this list useful!
 
-```js
-{
-            "title": "Name of the app",
-            "category-ids": ["Category id"],
-            "description": "What this app does",
-            "source": "Link to source, usually GitHub",
-            "screenshots": ["http://something.com/image.png"],
-            "date_added": "Aug 6 2016",
-            "suggested_by": "@github_username"
-}
-```
+To suggest an app, library, or learning resource, edit [`README.md`](../README.md) directly and open a pull request.
 
-:tada:
+## Guidelines
 
-For more information, please read https://github.com/vitorebatista/open-source-react-native-apps/wiki
+- **Open source only** — link to the source repository, not just an App Store / Play Store page.
+- **Actively maintained or historically significant** — archived or broken projects belong in the "Classic Apps" section (or not at all).
+- **One addition per PR** when possible, so reviews stay focused.
+- **Put entries in the right section**:
+  - Real, shipped apps → *Production Apps*
+  - Boilerplates/templates → *Starters & Boilerplates*
+  - Docs, tutorials, books → *Learning Resources*
+  - Libraries → *Core Libraries & Ecosystem* (under the most fitting subsection)
+  - Small demos → *Sample & Demo Apps*
+- **Entry format**: `- **[owner/repo](https://github.com/owner/repo)** — short description of what it is and why it's worth reading.`
+- **Avoid** redundant phrases like "React Native" or "open source" in the description — both are assumed.
+
+Broken links, renamed repos, and newly archived projects are also welcome as PRs.
