@@ -8,6 +8,7 @@ A curated hub for learning React Native by reading real code. This list collects
 
 ## Contents
 
+- [AI & On-Device ML](#ai--on-device-ml) `NEW` — running LLMs, vision, and ML inside your RN app
 - [Production Apps](#production-apps) — large, actively maintained apps you can learn from
 - [Starters & Boilerplates](#starters--boilerplates)
 - [Learning Resources](#learning-resources)
@@ -16,6 +17,37 @@ A curated hub for learning React Native by reading real code. This list collects
 - [Classic Apps](#classic-apps) — historically interesting, many unmaintained
 - [Related Awesome Lists](#related-awesome-lists)
 - [Contributing](#contributing)
+
+---
+
+## AI & On-Device ML
+
+> `NEW` — The fastest-growing area of the React Native ecosystem. Tools for talking to hosted LLMs, running models on-device, and building AI features without leaving JavaScript.
+
+### Agent skills & MCP servers
+
+> Tools that let AI coding agents (Claude Code, Cursor, VS Code, etc.) actually understand and operate your React Native / Expo project.
+
+- **[expo/skills](https://github.com/expo/skills)** — Official Expo "agent skills" pack. A curated collection of nine AI-agent skills covering native UI patterns, data fetching, API routes, custom dev builds, Tailwind styling, CI/CD, and deployment — all teaching agents how to do things *the Expo way*. Install with `bunx skills add expo/skills`. *(1.6k★)*
+- **[callstackincubator/agent-skills](https://github.com/callstackincubator/agent-skills)** — Generic React Native agent skills by Callstack. Complements `expo/skills` with framework-agnostic skills: `react-native-best-practices` (perf guide), `upgrading-react-native`, `react-native-brownfield-migration`, plus `github` and `github-actions` workflow patterns. Compatible with Claude Code, Cursor, Codex, and Gemini CLI. *(1.2k★)*
+- **[Expo MCP Server](https://docs.expo.dev/eas/ai/mcp/)** — Official MCP server hosted at `mcp.expo.dev`. Gives any MCP-aware agent access to Expo docs, intelligent package installation, config generation, plus local capabilities (screenshots, UI automation, DevTools) when paired with an Expo dev server on SDK 54+. See the [announcement post](https://expo.dev/blog/become-an-ai-native-developer-with-the-expo-mcp-server).
+
+### SDKs & frameworks
+
+- **[vercel/ai](https://github.com/vercel/ai)** — The Vercel AI SDK. The de-facto TypeScript toolkit for building AI features. Has [first-class Expo support](https://ai-sdk.dev/docs/getting-started/expo) via `@ai-sdk/react` (`useChat`, `useCompletion`) and works with every major model provider through one unified API. *(23k★)*
+- **[EvanBacon/expo-ai](https://github.com/EvanBacon/expo-ai)** — Reference AI chat app from Expo Router's lead, built on Expo Router + RSC + the Vercel AI SDK with tool calls to OpenAI. The canonical "how does Expo do AI" example. *(842★)*
+
+### On-device LLMs
+
+- **[software-mansion/react-native-executorch](https://github.com/software-mansion/react-native-executorch)** — Declarative on-device AI for React Native, powered by PyTorch's ExecuTorch. Out-of-the-box support for Llama 3.2, Qwen 3, SmolLM 2, plus computer vision and speech models. Maintained by Software Mansion. *(1.4k★)*
+- **[callstackincubator/ai](https://github.com/callstackincubator/ai)** — On-device LLM execution for React Native, fully compatible with the Vercel AI SDK (`useChat` etc. work with local models). Powered by MLC LLM Engine. Maintained by Callstack. *(1.3k★)*
+- **[mybigday/llama.rn](https://github.com/mybigday/llama.rn)** — Native binding to `llama.cpp` for loading GGUF models in React Native. The lowest-level option, used under the hood by many higher-level libraries. *(897★)*
+- **[daviddaytw/react-native-transformers](https://github.com/daviddaytw/react-native-transformers)** — Run Hugging Face transformer models locally via ONNX Runtime. Works in Expo. *(131★)*
+
+### RAG & vision
+
+- **[software-mansion-labs/react-native-rag](https://github.com/software-mansion-labs/react-native-rag)** — Local, offline Retrieval-Augmented Generation. Pairs with `react-native-executorch` for inference and SQLite (via `op-sqlite`) for the vector store. Powers Software Mansion's *Private Mind* app. *(306★)*
+- **[mrousavy/react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera)** — Not AI-specific, but the de-facto camera library and the entry point for any frame-processor-based ML pipeline (MediaPipe, TFLite, custom models).
 
 ---
 
@@ -87,6 +119,9 @@ The libraries you'll encounter in almost every serious React Native app.
 ### Lists & Performance
 - **[Shopify/flash-list](https://github.com/Shopify/flash-list)** — High-performance list component, drop-in `FlatList` replacement.
 - **[software-mansion/react-native-screens](https://github.com/software-mansion/react-native-screens)** — Native screen container primitives.
+
+### Charts & Visualization
+- **[Abhinandan-Kushwaha/react-native-gifted-charts](https://github.com/Abhinandan-Kushwaha/react-native-gifted-charts)** — The most-used charting library for React Native: line, bar, pie, donut, stacked, and animated charts.
 
 ### Storage & Data
 - **[mrousavy/react-native-mmkv](https://github.com/mrousavy/react-native-mmkv)** — Fast key-value storage backed by MMKV.
