@@ -1,30 +1,16 @@
 <!-- Thanks for contributing to open-source-react-native-apps 😊
+     See CONTRIBUTING.md for guidelines. -->
 
-⚠️ Please do not edit the README, instead make changes to contents.json
+## What this PR does
 
-To create a new category, please open an issue (see CONTRIBUTING) -->
+<!-- e.g. "Adds Foo/bar to Production Apps", "Fixes dead link in Learning Resources" -->
 
-<!-- When making an addition: -->
+## Checklist
 
-1. [ ] Project URL:
-2. [ ] Update contents.json instead of README 
-3. [ ] One project per pull request
-4. [ ] Avoid iOS or open-source in description as it is assumed
-5. [ ] Use this commit title format if applicable: Add app-name by @github-username
-6. [ ] Use approved format for your entry
-
-<!-- Approved Format
-
-{
-            "title": "Name of the app",
-            "category-ids": ["Category id"],
-            "description": "What this app does",
-            "source": "Link to source, usually GitHub",
-            "screenshots": ["http://something.com/image.png"],
-            "date_added": "Aug 6 2016",
-            "suggested_by": "@github_username"
-}
-
-For more information, read https://github.com/vitorebatista/open-source-react-native-apps/blob/master/.github/CONTRIBUTING.md
-
--->
+- [ ] Project URL:
+- [ ] Edited `README.md` directly
+- [ ] Placed in the most fitting section
+- [ ] Source is open and link points to the repo (not a store page)
+- [ ] Project is actively maintained, or belongs under *Classic Apps*
+- [ ] Entry follows the format: `- **[owner/repo](url)** — short description.`
+- [ ] Commit title follows: `Add <project-name>` or `Update <project-name>`
